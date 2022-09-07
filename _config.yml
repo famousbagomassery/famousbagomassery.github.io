@@ -45,6 +45,8 @@ social:
     url: https://www.facebook.com/famousbagsomassery
   - title: youtube
     url: https://www.youtube.com/channel/UCyDB7NlbYEH1zaEv1e6q9HA
+  - title: whatsapp
+    url: https://api.whatsapp.com/send?phone=9607774222
   
 
 # Postal address (add as many lines as necessary)
