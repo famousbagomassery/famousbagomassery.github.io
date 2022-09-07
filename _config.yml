@@ -32,9 +32,9 @@ color:
 
 # Footer settings
 footer:
-  copyright: famous bags
-  location: Omassery
-  social: Around the Web
+  copyright: Famous bags
+  location: Location
+  social: Social Media
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
