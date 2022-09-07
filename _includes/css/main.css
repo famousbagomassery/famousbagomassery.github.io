@@ -185,6 +185,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.black {
+    color: #fff;
+    background: #000;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
