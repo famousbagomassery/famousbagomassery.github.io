@@ -1,9 +1,8 @@
-
 ---
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2014-07-18
-img: bag-1.webp
+img: bag-2.webp
 alt: school bags
 project-date: April 2014
 client: bags
