@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-18
+date: 2014-07-20
 img: bag-1.webp
 alt: school bags
-project-date: April 2014
+project-date: April 
 client: bags
 category: school
 description: School Bags Making & Repair.
