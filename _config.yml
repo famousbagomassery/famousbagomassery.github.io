@@ -46,13 +46,14 @@ social:
   - title: youtube
     url: https://www.youtube.com/channel/UCyDB7NlbYEH1zaEv1e6q9HA
   - title: whatsapp
-    url: https://api.whatsapp.com/send?phone=9607774222
+    url: https://api.whatsapp.com/send?phone=919946889866
   
 
 # Postal address (add as many lines as necessary)
 address:
   - line: New Bus Stand, Omassery
-  - line: Calicut Dt. Kerala India 673582
+  - line: Calicut Dt. Kerala India 673582 
+  - line: +91 9946 88 98 66
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
