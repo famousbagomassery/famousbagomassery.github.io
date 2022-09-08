@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-16
+date: 2014-07-21
 img: ladies.png
 alt: Ladies Bags
 project-date: April 2014
