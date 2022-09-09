@@ -5,7 +5,8 @@ date: 2014-07-28
 img: bag-2.webp
 alt: school bags
 project-date: April 
-client: bags
-category: school
+price: 199.00
+client: Tote Bags
+category: School & College Bags
 description: School Bags Making & Repair.
 ---
