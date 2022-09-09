@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-26
+img: bag-3.webp
+alt: school bags
+project-date: April 2014
+client: Tote bag
+price: 199.00
+category: Ladies College Bags
+description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
+---
