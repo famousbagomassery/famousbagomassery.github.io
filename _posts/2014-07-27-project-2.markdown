@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-20
+date: 2014-07-27
 img: bag-1.webp
 alt: school bags
 project-date: April 
