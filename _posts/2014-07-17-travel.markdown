@@ -7,6 +7,6 @@ alt: Travel Bags
 project-date: April 2014
 price: 299.00
 client: Travel
-category: Travel, Trolley & Backpaks
+category: Travel, Trolley & Backpacks
 description: ട്രാവൽ, ട്രോളി, ബാക്പാക്ക്  ബാഗുകൾ മിതമായ നിരക്കിൽ.
 ---
