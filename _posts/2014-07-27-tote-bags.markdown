@@ -8,5 +8,5 @@ project-date: April
 price: 199.00
 client: Tote Bags
 category: Ladies College Bags 
-description: School Bags Making & Repair.
+description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
