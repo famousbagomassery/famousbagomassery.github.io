@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 3
-img: bag-3.webp
-alt: school bags
-model: Tote bag
-category: Ladies College Bags
-description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
----
