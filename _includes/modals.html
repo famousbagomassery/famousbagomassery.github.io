@@ -35,6 +35,12 @@
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
+              {% if post.model %}  
+              <li>
+                 <a href="https://api.whatsapp.com/send?phone=919946889866?text={{ post.model }}" target="_blank" class="btn-social btn-outline"><i
+                  class="fa-brands fa-fw fa-whatsapp"></i></a>
+              </li> 
+               {% endif %}  
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
