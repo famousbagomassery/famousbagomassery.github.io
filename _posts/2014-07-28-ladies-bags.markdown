@@ -1,12 +1,9 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-28
 img: bag-2.webp
-alt: school bags
-project-date: April 
-price: 199.00
-client: Tote Bags
+alt: school bags 
+model: Tote Bags
 category: School & College Bags
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
