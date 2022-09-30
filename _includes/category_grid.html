@@ -3,23 +3,36 @@
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Bags</h2>
+        <h2>Categories</h2>
         <hr class="star-primary">
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
+      
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="/img/bags/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="/img/categories/cat-1.webp" class="img-responsive" alt="cat-1">
+		  <p class="text-center">Cat Name 1</p>
         </a>
       </div>
-      {% endfor %}
+		
+	<div class="portfolio-flex-item portfolio-item">
+        <a href="#" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="/img/categories/cat-2.webp" class="img-responsive" alt="cat-2">
+		  <p class="text-center">Cat Name 2</p>
+        </a>
+      </div>
+      
     </div>
   </div>
 </section>
