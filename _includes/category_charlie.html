@@ -16,7 +16,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/bags/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="/img/bags/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
 			
         </a>
       </div>
@@ -24,3 +24,10 @@
     </div>
   </div>
 </section>
+
+
+{% for staff_member in site.staff_members %}
+  <h2>{{ staff_member.name }} - {{ staff_member.position }}</h2>
+  <p>{{ staff_member.content | markdownify }}</p>
+{% endfor %}
+
