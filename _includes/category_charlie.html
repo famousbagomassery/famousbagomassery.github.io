@@ -3,20 +3,20 @@
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Bags</h2>
+        <h2>Charlie</h2>
         <hr class="star-primary">
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
+      {% for post in site.charlie %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="/img/bags/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="/img/bags/{{ post.img }}" class="img-responsive" >
 			
         </a>
       </div>
@@ -24,11 +24,3 @@
     </div>
   </div>
 </section>
-
-
-{% for charly in site.charlie %}
-  <div class="cookie">
-    <h2><img src="{{ cookie.image_path }}" alt="{{ cookie.title }}">{{ charly.title }}</a></h2>
-    {{ charly.content }}
-  </div>
-{% endfor %}

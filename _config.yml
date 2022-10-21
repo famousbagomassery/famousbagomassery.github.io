@@ -64,8 +64,8 @@ markdown: kramdown
 permalink: pretty
 
 collections:
-  cookies:
   charlie:
+  
 
 #for posts
 defaults:
