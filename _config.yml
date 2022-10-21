@@ -64,10 +64,10 @@ markdown: kramdown
 permalink: pretty
 
 collections:
-  categories:
-  	output: true
-	permalink: /categories/:name
-  
+  animals:
+    output: true
+	permalink: /my-animal/:name
+
 
 #for posts
 defaults:
