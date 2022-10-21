@@ -28,7 +28,7 @@
 
 {% for charly in site.charlie %}
   <div class="cookie">
-    <h2><img src="{{ cookie.image_path }}" alt="{{ cookie.title }}">{{ cookie.title }}</a></h2>
-    {{ cookie.content }}
+    <h2><img src="{{ cookie.image_path }}" alt="{{ cookie.title }}">{{ charly.title }}</a></h2>
+    {{ charly.content }}
   </div>
 {% endfor %}
