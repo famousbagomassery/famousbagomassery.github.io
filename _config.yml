@@ -71,6 +71,7 @@ defaults:
     values:
       permalink: ""
 	  
-# For collections
+#for collections
 collections:
-  - staff_members
+  staff_members:
+    people: true
