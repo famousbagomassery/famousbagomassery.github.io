@@ -1,6 +1,6 @@
 ---
 layout: default
-count:11
+counter:11
 alt: Trekking Bag
 category: trekking
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
