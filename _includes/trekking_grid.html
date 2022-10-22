@@ -10,6 +10,12 @@
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
 		
+		{% if page.category == "trekking" %}
+		<p>Here's some info about the Mac.</p>
+		
+		{% endif %}
+		
+		
 		<p> {{ post.model }}	</p>
 		
 		
