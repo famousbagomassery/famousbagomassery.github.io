@@ -1,9 +1,9 @@
 ---
 layout: default
-modal-id: 18
-img: VUEU-16.webp
-alt: Fancy Bags
-model: VUEU-16
-category: Fancy Bags
+modal-id: office-1
+img: VUEU-18.webp
+alt: Laptop Bag
+model: VUEU-18
+category: office
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
