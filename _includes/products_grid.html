@@ -1,10 +1,11 @@
 
 <!-- Portfolio Grid Section -->
+
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>{{ page.layout }} Bags</h2>
+        <h2>{{ page.title }} Bags</h2>
         <hr class="star-primary">
       </div>
     </div>
@@ -14,7 +15,7 @@
       {% for post in site.posts %}
 		
 				
-		{% if post.category == page.layout %}
+		{% if post.category == page.title %}
 			
 				{% assign start = 1 %}
 				{% assign end = post.model %}
@@ -46,7 +47,7 @@
 
 {% for post in site.posts %}
 
-{% if post.category == page.layout %}
+{% if post.category == page.title %}
 
 {% assign start = 1 %}
 {% assign end = post.model %}
