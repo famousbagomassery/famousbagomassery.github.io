@@ -1,6 +1,5 @@
 
 <!-- Portfolio Grid Section -->
-{{ page.layout }}
 
 <section id="portfolio">
   <div class="container portfolio-flex-grid">
@@ -14,6 +13,10 @@
 	 
 		
       {% for post in site.posts %}
+		
+		{{ page.layout }}
+		
+		{{ post.category }}
 		
 		{% if post.category == "{{ page.layout }}" %}
 		
