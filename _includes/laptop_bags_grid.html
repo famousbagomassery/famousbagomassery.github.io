@@ -8,19 +8,32 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
+       {% for post in site.posts %}
 		
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>
-          <img src="/img/bags/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-			
-        </a>
-      </div>
+		{% if post.category == "laptop" %}
+		
+					
+				{% assign start = 1 %}
+				{% assign end = post.model %}
+				{% for i in (start..end) %}
+		
+					 <div class="portfolio-flex-item portfolio-item">
+						<a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+						  <div class="caption">
+							<div class="caption-content">
+							  <i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						  </div>
+						  <img src="/img/bags/{{ post.category }}/{{ post.category }}-{{ i }}.webp" class="img-responsive" alt="{{ post.alt }}">
+
+						</a>
+					 </div>
+		
+				   
+				{% endfor %}
+		
+		{% endif %}
+		
       {% endfor %}
     </div>
   </div>
