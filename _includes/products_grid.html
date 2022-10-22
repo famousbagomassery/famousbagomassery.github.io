@@ -16,8 +16,7 @@
 		
 				
 		{% if post.category == page.layout %}
-		
-				sssd	
+			
 				{% assign start = 1 %}
 				{% assign end = post.model %}
 				{% for i in (start..end) %}
@@ -48,7 +47,7 @@
 
 {% for post in site.posts %}
 
-{% if post.category == {{ page.layout }} %}
+{% if post.category == page.layout %}
 
 {% assign start = 1 %}
 {% assign end = post.model %}
