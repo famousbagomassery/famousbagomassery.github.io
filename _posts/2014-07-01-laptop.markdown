@@ -1,9 +1,9 @@
 ---
 layout: default
-modal-id: 21
-img: VUEU-19.webp
-alt: Fancy Bags
-model: VUEU-19
-category: charlie
+modal-id: laptop-2
+img: VUEU-18.webp
+alt: Laptop Bag
+model: VUEU-18
+category: laptop
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
