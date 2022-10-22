@@ -11,19 +11,16 @@
       {% for post in site.posts %}
 		
 		{% if post.category == "laptop" %}
-		<p>Here's some info about the Mac.</p>
+		
+					
+				{$ assign start = 1 %}
+				{% assign end = post.model %}
+				{% for i in (start..end) %}
+				   Iteration {{ i }}
+				{% endfor %}
 		
 		{% endif %}
 		
-		{% for i in (0..4) %}
-		   Iteration {{ i }}
-		{% endfor %}
-		
-		
-		<p> {{ post.model }}	</p>
-		
-		
-	  
       {% endfor %}
     </div>
   </div>
