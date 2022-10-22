@@ -73,7 +73,7 @@
             <ul class="list-inline item-details">
               {% if post.model %}
               <li>Model:
-                <strong>{{ post.model }}</strong>
+                <strong>{{ post.category }}-{{ i }}</strong>
               </li>
               {% endif %}
               {% if post.price %}
@@ -88,7 +88,7 @@
               {% endif %}
               {% if post.model %}  
               <li>
-                 <a href="https://api.whatsapp.com/send?phone=919946889866&text={{ post.model }}" style="color:green;" target="_blank" class=" btn-outline"><i
+                 <a href="https://api.whatsapp.com/send?phone=919946889866&text=order-{{ post.category }}-{{ i }}" style="color:green;" target="_blank" class=" btn-outline"><i
                   class="fa-brands fa-fw fa-whatsapp"></i> Order Now</a> 
               </li> 
                {% endif %}  
