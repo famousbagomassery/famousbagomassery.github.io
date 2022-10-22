@@ -10,10 +10,14 @@
     <div class="portfolio-flex-row">
       {% for post in site.posts %}
 		
-		{% if page.category == "laptop" %}
+		{% if post.category == "laptop" %}
 		<p>Here's some info about the Mac.</p>
 		
 		{% endif %}
+		
+		{% for i in (0..4) %}
+		   Iteration {{ i }}
+		{% endfor %}
 		
 		
 		<p> {{ post.model }}	</p>
