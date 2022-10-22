@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: school-1
+img: VUEU-19.webp
+alt: School Bag
+model: 23
+category: school
+description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
+---
