@@ -14,13 +14,10 @@
 		
       {% for post in site.posts %}
 		
-		{{ page.layout }}
+				
+		{% if post.category == page.layout %}
 		
-		{{ post.category }}
-		
-		{% if post.category == "{{ page.layout }}" %}
-		
-					
+				sssd	
 				{% assign start = 1 %}
 				{% assign end = post.model %}
 				{% for i in (start..end) %}
