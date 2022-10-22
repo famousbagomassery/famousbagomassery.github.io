@@ -5,6 +5,5 @@ img: VUEU-19.webp
 alt: Laptop Bag
 model: VUEU-19
 category: laptop
-counts:11
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
