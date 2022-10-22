@@ -251,6 +251,8 @@ section.black {
     z-index: 2;
 }
 
+#category strong.item-label{padding:5px;display:block}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
