@@ -13,10 +13,23 @@
 		{% if post.category == "laptop" %}
 		
 					
-				{$ assign start = 1 %}
+				{% assign start = 1 %}
 				{% assign end = post.model %}
 				{% for i in (start..end) %}
-				   Iteration {{ i }}
+		
+					 <div class="portfolio-flex-item portfolio-item">
+						<a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+						  <div class="caption">
+							<div class="caption-content">
+							  <i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						  </div>
+						  <img src="/img/bags/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+
+						</a>
+					 </div>
+		
+				   {{ i }}
 				{% endfor %}
 		
 		{% endif %}
