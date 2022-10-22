@@ -200,7 +200,7 @@ section.black {
     }
 }
 
-#portfolio .portfolio-item {
+#portfolio .portfolio-item, #category .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
@@ -254,7 +254,7 @@ section.black {
 #category strong.item-label{padding:5px;display:block}
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #portfolio .portfolio-item, #category .portfolio-item{
         margin: 0 0 30px;
     }
 }
