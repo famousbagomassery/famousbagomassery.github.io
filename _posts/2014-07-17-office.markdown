@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: office-4
-img: VUEU-18.webp
-alt: Laptop Bag
-model: VUEU-18
-category: office
-description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
----
