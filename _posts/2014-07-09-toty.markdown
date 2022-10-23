@@ -3,7 +3,7 @@ layout: default
 modal-id: toty-1
 img: VUEU-19.webp
 alt: Toty Bag
-model: 1
+model: 5
 category: toty
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
