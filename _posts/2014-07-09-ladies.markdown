@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: ladies-1
+img: VUEU-19.webp
+alt: Ladies Bag
+model: 3
+category: ladies
+description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
+---
