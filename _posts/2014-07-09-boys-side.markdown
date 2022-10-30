@@ -1,9 +1,9 @@
 ---
 layout: default
-modal-id: ladies-wallet-1
+modal-id: boys-side-1
 img: VUEU-19.webp
-alt: Ladies Wallet
-model: 13
-category: ladies-wallet
+alt: boys side Bag
+model: 12
+category: boys-side
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
