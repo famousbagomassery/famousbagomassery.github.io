@@ -3,7 +3,7 @@ layout: default
 modal-id: boys-side-1
 img: VUEU-19.webp
 alt: boys side Bag
-model: 12
+model: 11
 category: boys-side
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
