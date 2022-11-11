@@ -3,7 +3,7 @@ layout: default
 modal-id: laptop-1
 img: VUEU-19.webp
 alt: Trekking Bag
-model: 10
+model: 19
 category: trekking
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
