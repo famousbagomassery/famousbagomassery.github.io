@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: sale-1
+img: VUEU-19.webp
+alt: Sale On 
+model: 0
+category: sale
+description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
+---
