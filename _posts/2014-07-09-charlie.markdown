@@ -3,7 +3,7 @@ layout: default
 modal-id: charlie-1
 img: VUEU-19.webp
 alt: Charlie Bag
-model: 15
+model: 19
 category: charlie
 description: നിങ്ങളാഗ്രഹിക്കുന്ന എല്ലാ വിധ ബാഗുകൾക്കും.
 ---
