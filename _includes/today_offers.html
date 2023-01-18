@@ -10,50 +10,28 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-	 
 		
-      {% for post in site.posts %}
 		
-				
-		{% if post.category == page.title %}
-			
-				{% assign start = 1 %}
-				{% assign end = post.model %}
-				{% for i in (start..end) %}
-		
-					 <div class="portfolio-flex-item portfolio-item">
-						<a href="#bagsModal-{{ i }}" class="portfolio-link" data-toggle="modal">
-						  <div class="caption">
-							<div class="caption-content">
-							  <i class="fa fa-search-plus fa-3x"></i>
-							</div>
-						  </div>
-						  <img src="/img/bags/{{ post.category }}/{{ post.category }}-{{ i }}.webp" class="img-responsive" alt="{{ post.alt }}">
+		 <div class="portfolio-flex-item portfolio-item">
+			<a href="#offersModal-1" class="portfolio-link" data-toggle="modal">
+			  <div class="caption">
+				<div class="caption-content">
+				  <i class="fa fa-search-plus fa-3x"></i>
+				</div>
+			  </div>
+			  <img src="/img/bags/offers/offer-1.jpg" class="img-responsive" alt="Offers 1">
 
-						</a>
-					 </div>
-		
-				   
-				{% endfor %}
-		
-		{% endif %}
-		
-      {% endfor %}
+			</a>
+		 </div>
+	
     </div>
   </div>
 </section>
 
 <!-- Portfolio Modals -->
 
-{% for post in site.posts %}
 
-{% if post.category == page.title %}
-
-{% assign start = 1 %}
-{% assign end = post.model %}
-{% for i in (start..end) %}
-
-<div class="portfolio-modal modal fade bags" id="bagsModal-{{ i }}" tabindex="-1" role="dialog"
+<div class="portfolio-modal modal fade bags" id="offersModal-1" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -66,36 +44,12 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>Today Offer</h2>
             <hr class="star-primary">
-            <img src="/img/bags/{{ post.category }}/{{ post.category }}-{{ i }}.webp" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
-            {% endif %}
-            <ul class="list-inline item-details">
-              {% if post.model %}
-              <li>Model:
-                <strong>{{ post.category }}-{{ i }}</strong>
-              </li>
-              {% endif %}
-              {% if post.price %}
-              <li>Price:
-                <strong>{{ post.price }}</strong>
-              </li>
-              {% endif %}
-              {% if post.category %}
-              <li>Category:
-                <strong>{{ post.category }}</strong>
-              </li>
-              {% endif %}
-              {% if post.model %}  
-              <li>
-                 <a href="https://api.whatsapp.com/send?phone=919946889866&text={{ site.url }}img/bags/{{ post.category }}/{{ post.category }}-{{ i }}.webp  കൂടുതൽ അറിയാന്  താല്പര്യപെടുന്നു" style="color:green;" target="_blank" class=" btn-outline"><i
-                  class="fa-brands fa-fw fa-whatsapp"></i> Price Enquiry Or Order Now</a> 
-		      <!--order-{{ post.category }}-{{ i }}-->
-              </li> 
-               {% endif %}  
-            </ul>
+            <img src="/img/bags/offers/offer-1.jpg" class="img-responsive img-centered" alt="offer 1">
+           
+            <p>Offer Desciption</p>
+            
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
@@ -105,10 +59,6 @@
   </div>
 </div>
 
-{% endfor %}
 
-{% endif %}
-
-{% endfor %}
 
 
